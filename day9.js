@@ -1,9 +1,6 @@
 //Write a function that will calculate the arithmetic mean of the years of an array.
 function calculateMean(arr) {
-  // Sum all elements of the array
   const sum = arr.reduce((acc, val) => acc + val, 0);
-  
-  // Divide the sum by the length of the array to get the mean
   const mean = sum / arr.length;
   
   return mean;
